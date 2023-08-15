@@ -1,0 +1,24 @@
+.post-container{
+    display: block;
+    position: relative;
+    margin-top: 5em;
+    margin-left: 1.5em;
+    width: 80vw;
+    border: 1px solid var(--pozadina-dugme)
+}
+.post-container-buttons{
+    width: 80vw;
+    padding: 0.5em;
+}
+.post-container-buttons button{
+    border: none;
+    background: none;
+    margin: 0 1em;
+}
+.post-container-buttons button:hover{
+    background-color: var(--pozadina-dugme);
+    color: var(--pozadina);
+}
+.post-container-post{
+    padding: 1em;
+}
