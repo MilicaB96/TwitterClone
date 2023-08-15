@@ -1,0 +1,32 @@
+.container-form{
+    position: absolute;
+    top:5em;
+    left: 2em;
+}
+textarea{
+    resize: none;
+    font-size: 20px;
+    width: 80vw;
+    height: 10vh;
+}
+.form-button{
+    display: block;
+    margin:10px 0;
+    background-color: var(--pozadina-dugme);
+    color: var(--pozadina);
+}
+.form-button:hover{
+     background-color: var(--pozadina);
+     color: var(--pozadina-dugme);
+     border-color: var(--pozadina-dugme);
+}
+.container-textarea{
+  padding: 2px;
+  height: 10.5vh;
+}
+.container-textarea:hover{
+  background: var(--rainbow-gradient);
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: gradient 1.5s ease-in-out infinite;
+}
